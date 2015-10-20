@@ -16,8 +16,8 @@ cin>>intiger;
     else
      {
         for(i=1;i<32760;i++)
-         {triplet=pow((intiger*intiger+i*i),0.5);
-          temp=pow((intiger*intiger+i*i),0.5);
+         {triplet=pow((intiger*intiger+i*i),0.5);  //triplet is float type
+          temp=pow((intiger*intiger+i*i),0.5);     //temp is intiger type
           if((triplet-temp)==0)  //minus gives you the digit after point
                {
                  cout<<intiger<<"\t"<<i<<"\t"<<triplet<<"\n";
